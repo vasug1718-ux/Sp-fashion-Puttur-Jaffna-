@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SP Fashion Puttur</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #fdf6f0;
+      color: #333;
+    }
+    header {
+      background-color: #d6336c;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #f7a1b8;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+      font-weight: 600;
+    }
+    nav a {
+      color: #4a1329;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #d6336c;
+      padding-bottom: 6px;
+      margin-bottom: 15px;
+      color: #a11548;
+    }
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 15px 0 5px 0;
+      font-size: 1.2rem;
+      color: #d6336c;
+    }
+    .product-card p {
+      margin: 0 15px;
+      font-size: 1rem;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background: #d6336c;
+      color: white;
+      font-weight: 600;
+      margin-top: 50px;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>SP Fashion Puttur</header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>Welcome to SP Fashion Puttur! We offer a wide variety of trendy and affordable clothing for men, women, and children. Our mission is to provide quality fashion with excellent customer service right here in Puttur.</p>
+    </section>
+
+    <section id="products" class="products-section">
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80" alt="Stylish Shirt" />
+          <h3>Stylish Shirt</h3>
+          <p>Comfortable and trendy shirts available in all sizes.</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=400&q=80" alt="Elegant Dress" />
+          <h3>Elegant Dress</h3>
+          <p>Perfect for all occasions with vibrant colors and designs.</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1520975695087-8b3f8f130f3b?auto=format&fit=crop&w=400&q=80" alt="Casual Wear" />
+          <h3>Casual Wear</h3>
+          <p>Everyday wear with comfort and style for all ages.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-info">
+      <h2>Contact Us</h2>
+      <p>📍 Address: SP Fashion, Main Street, Puttur</p>
+      <p>📞 Phone: +94 77 123 4567</p>
+      <p>📧 Email: info@spfashionputtur.lk</p>
+      <p>Follow us on social media for updates and special offers!</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SP Fashion Puttur. All rights reserved.
+  </footer>
+</body>
+</html>
